@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Module" max_length="40" name="x_snc_appmgr_module" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element choice="1" default="No code" label="Complexity" max_length="40" name="complexity" type="choice">
+            <choice>
+                <element label="No code" sequence="0" value="No code"/>
+                <element label="Low code" sequence="1" value="Low code"/>
+                <element label="Pro code" sequence="2" value="Pro code"/>
+            </choice>
+        </element>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element label="App" sequence="0" value="App"/>
+                <element label="Block" sequence="1" value="Block"/>
+                <element label="Infrastructure" sequence="2" value="Infrastructure"/>
+                <element label="Service" sequence="3" value="Service"/>
+                <element label="Utility" sequence="4" value="Utility"/>
+            </choice>
+        </element>
+    </element>
+</database>

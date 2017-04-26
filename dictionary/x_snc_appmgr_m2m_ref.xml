@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Reference architecture" max_length="40" name="x_snc_appmgr_m2m_ref" type="collection">
+        <element label="Application" max_length="32" name="application" reference="x_snc_appmgr_application" type="reference"/>
+        <element choice="1" choice_field="complexity" choice_table="x_snc_appmgr_module" default="No code" label="Complexity" max_length="40" name="complexity" type="choice">
+            <choice/>
+        </element>
+        <element label="Module" max_length="32" name="module" reference="x_snc_appmgr_module" type="reference"/>
+        <index name="index">
+            <element name="application"/>
+        </index>
+        <index name="index2">
+            <element name="module"/>
+        </index>
+    </element>
+</database>

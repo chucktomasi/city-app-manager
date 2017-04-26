@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="complexity" table="x_snc_appmgr_module" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>complexity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No code</label>
+            <language>en</language>
+            <name>x_snc_appmgr_module</name>
+            <sequence>0</sequence>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2017-04-26 22:26:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>041061b2dbd672c09093b3d0ef9619ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2017-04-26 22:26:58</sys_updated_on>
+            <value>No code</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>complexity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Low code</label>
+            <language>en</language>
+            <name>x_snc_appmgr_module</name>
+            <sequence>1</sequence>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2017-04-26 22:26:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c01061b2dbd672c09093b3d0ef9619ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2017-04-26 22:26:58</sys_updated_on>
+            <value>Low code</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>complexity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pro code</label>
+            <language>en</language>
+            <name>x_snc_appmgr_module</name>
+            <sequence>2</sequence>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2017-04-26 22:26:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cc1061b2dbd672c09093b3d0ef9619ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2017-04-26 22:26:58</sys_updated_on>
+            <value>Pro code</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>complexity</element>
+            <name>x_snc_appmgr_module</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2017-04-26 22:26:58</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>4c1061b2dbd672c09093b3d0ef9619ed</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>complexity</sys_name>
+            <sys_package display_value="City App Manager" source="x_snc_appmgr">2ef811fedb5672c09093b3d0ef9619a2</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="City App Manager">2ef811fedb5672c09093b3d0ef9619a2</sys_scope>
+            <sys_update_name>sys_choice_x_snc_appmgr_module_complexity</sys_update_name>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2017-04-26 22:26:58</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
